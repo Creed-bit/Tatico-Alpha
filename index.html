@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tático Alpha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Oswald', sans-serif;
+    }
+    body {
+      background-color: #1c1c1c;
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #0f0f0f;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      color: #79a32b;
+      font-size: 2rem;
+    }
+    nav a {
+      color: #e0e0e0;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #79a32b;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1601039641919-cd1a4e65dc28?fit=crop&w=1500&q=80') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h2 {
+      color: white;
+      font-size: 2.5rem;
+      background-color: rgba(0,0,0,0.6);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 2rem;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .category {
+      margin-bottom: 2rem;
+    }
+    .category h3 {
+      border-bottom: 2px solid #79a32b;
+      margin-bottom: 1rem;
+    }
+    .post {
+      background-color: #2e2e2e;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .post h4 {
+      margin-bottom: 0.5rem;
+    }
+    .newsletter, .socials {
+      margin-top: 2rem;
+    }
+    .newsletter input {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 70%;
+    }
+    .newsletter button {
+      padding: 10px;
+      background: #79a32b;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+    }
+    .socials a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #79a32b;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0f0f0f;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tático Alpha</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#treino">Treino</a>
+      <a href="#historico">História</a>
+      <a href="#armas">Armas</a>
+      <a href="#ficcao">Ficção</a>
+      <a href="#atualidades">Atualidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <div class="hero">
+    <h2>Disciplina. Estratégia. Ação.</h2>
+  </div>  <section class="search-box">
+    <input type="text" placeholder="Buscar conteúdo...">
+  </section>  <section class="category" id="treino">
+    <h3>Treino Militar</h3>
+    <div class="post">
+      <h4>5 treinos do BOPE para fazer em casa</h4>
+      <p>Melhore força e resistência com exercícios inspirados nos guerreiros urbanos do Brasil.</p>
+    </div>
+  </section>  <section class="category" id="historico">
+    <h3>História Militar</h3>
+    <div class="post">
+      <h4>Alexandre, o Grande: gênio militar do passado</h4>
+      <p>Como ele dominou metade do mundo antes dos 30 anos.</p>
+    </div>
+  </section>  <section class="category" id="armas">
+    <h3>Armas & Equipamentos</h3>
+    <div class="post">
+      <h4>As 7 armas mais icônicas da Segunda Guerra</h4>
+      <p>Conheça os armamentos que mudaram a história dos conflitos modernos.</p>
+    </div>
+  </section>  <section class="category" id="ficcao">
+    <h3>Ficção Militar</h3>
+    <div class="post">
+      <h4>Capitão Nascimento vs John Wick</h4>
+      <p>Um duelo entre dois mestres do combate. Quem levaria a melhor?</p>
+    </div>
+  </section>  <section class="category" id="atualidades">
+    <h3>Atualidades</h3>
+    <div class="post">
+      <h4>Operações Especiais pelo mundo em 2025</h4>
+      <p>Veja as missões mais arriscadas realizadas nos últimos meses.</p>
+    </div>
+  </section>  <section class="newsletter">
+    <h3>Assine a Newsletter</h3>
+    <input type="email" placeholder="Digite seu e-mail">
+    <button>Inscrever-se</button>
+  </section>  <section class="socials" id="contato">
+    <h3>Redes Sociais</h3>
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+    <a href="#">Telegram</a>
+  </section>  <footer>
+    &copy; 2025 Tático Alpha. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
